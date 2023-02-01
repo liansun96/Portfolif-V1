@@ -1,0 +1,21 @@
+/* Error: $map: 1140px is not a map.
+ *    ,
+ * 30 |   $min: map-get($breakpoints, $name);
+ *    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ *    '
+ *   ..\node_modules\bootstrap\scss\mixins\_breakpoints.scss 30:9   breakpoint-min()
+ *   ..\node_modules\bootstrap\scss\mixins\_breakpoints.scss 56:14  breakpoint-infix()
+ *   ..\node_modules\bootstrap\scss\_navbar.scss 45:19              @import
+ *   ..\node_modules\bootstrap\scss\bootstrap.scss 29:9             @import
+ *   app.scss 38:9                                                  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: $map: 1140px is not a map.\a    \2577 \a 30 \2502    $min: map-get($breakpoints, $name);\a    \2502          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   ..\\node_modules\\bootstrap\\scss\\mixins\\_breakpoints.scss 30:9   breakpoint-min()\a   ..\\node_modules\\bootstrap\\scss\\mixins\\_breakpoints.scss 56:14  breakpoint-infix()\a   ..\\node_modules\\bootstrap\\scss\\_navbar.scss 45:19              @import\a   ..\\node_modules\\bootstrap\\scss\\bootstrap.scss 29:9             @import\a   app.scss 38:9                                                  root stylesheet";
+}

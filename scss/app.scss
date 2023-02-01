@@ -1,0 +1,42 @@
+$theme-colors: (
+        "primary"   :   #402E32,
+        "secondary" : #fce07d,
+        "accent"    :  #f6f6f6,
+        "softblue"  :  #EDD4FF,
+);
+
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 860px,
+        xl: 1040px,
+        xxl: 1220px
+);
+
+$primary :  #402E32;
+$secondary: #F9F871;
+$accent : #f6f6f6;
+$deep : #EDD4FF;
+
+$carousel-indicator-active-bg: #EDD4FF;
+$carousel-indicator-opacity: 1;
+
+$container-max-widths :1140px;
+$body-bg:$accent;
+$font-family-sans-serif :'Josefin Sans', sans-serif;
+//$font-family-sans-serif :'Spline Sans Mono', monospace;
+//$font-family-sans-serif :'Inconsolata', monospace;
+
+
+$nav-pills-link-active-color : #6D9886;
+$navbar-nav-link-padding-x : 1.5rem;
+$btn-padding-x :1.5rem;
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500;700&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500;700&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@300;500;700&display=swap');
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.container{
+  width : 85%!important;
+}
