@@ -12,7 +12,6 @@ $container-max-widths: (
         xl: 1040px,
         xxl: 1220px
 );
-
 $primary :  #402E32;
 $secondary: #F9F871;
 $accent : #f6f6f6;
@@ -21,22 +20,30 @@ $deep : #EDD4FF;
 $carousel-indicator-active-bg: #EDD4FF;
 $carousel-indicator-opacity: 1;
 
-$container-max-widths :1140px;
 $body-bg:$accent;
 $font-family-sans-serif :'Josefin Sans', sans-serif;
-//$font-family-sans-serif :'Spline Sans Mono', monospace;
-//$font-family-sans-serif :'Inconsolata', monospace;
-
-
 $nav-pills-link-active-color : #6D9886;
 $navbar-nav-link-padding-x : 1.5rem;
 $btn-padding-x :1.5rem;
+
+$figcaption-bg: #2e2e2e80;
+$image-bg:#ffffff;
+
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500;700&display=swap');
 //@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500;700&display=swap');
 //@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@300;500;700&display=swap');
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/imagehover.css/scss/imagehover.scss";
+
 
 .container{
-  width : 85%!important;
+
+        width : 85%!important;
+}
+
+@media screen and (max-width: 576px){
+        .container{
+                width: 99%!important;
+        }
 }

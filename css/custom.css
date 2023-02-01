@@ -321,9 +321,9 @@
 
 .circle .i2{
     top: 84px;
-    left: 194px;
+    left: 179px;
     font-size: 30px;
-    color: var(--bs-softblue);    
+    color: var(--bs-softblue);   
 }
 
 
@@ -435,21 +435,21 @@
 }
 
 .project-img-frame{
-    height: 305px;
-    width: 80%;
+    height: 310px;
+    width: 90%;
     margin: auto;
     position: relative;
     transition: 500ms ease;
 }
 
-.project-img-frame img{
-    height: 100%;
+.imghvr-reveal-up img{
+    height: 300px;
     width: 100%;
     object-fit: cover;
     transition: 350ms ease-out;
 }
 
-.project-img-frame button{
+/* .project-img-frame button{
     bottom: 10px;    
     right: 20px;
     visibility: hidden;
@@ -461,7 +461,7 @@
     right: 20px;
     visibility: visible;
     transition: 500ms ease;
-}
+} */
 
 .projectCircleText{
     position: relative;
@@ -778,7 +778,7 @@
 
     .circle .i2 {
         top: 74px;
-        left: 140px;
+        left: 135px;
         font-size: 50px;
         color: var(--bs-softblue);
     }
